@@ -1,3 +1,3 @@
 # Grocery List
-### Deploy link
+### Deploy link https://mayankmp.github.io/Grocery-List/
 ## Thank you for your visit
