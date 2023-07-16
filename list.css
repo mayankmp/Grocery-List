@@ -1,0 +1,104 @@
+body {
+    background:linear-gradient(#2E1437, #948E99) ;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: courier, monospace;
+  }
+  
+  form {
+    color: #ffffff;
+    font-size: 22px;
+  }
+  
+  input[type="text"]{
+    background-color :transparent;
+    border-radius: 50px;
+    height: 25px;
+    color: #ffffff;
+  }
+
+  #addNeed {
+      margin: 12px;
+      height: 40px;
+      width: 100px;
+      border-radius: 10px;
+      background:transparent;
+      justify-content: center;
+      align-items: center;
+      box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+      border: none;
+      font-size: 12px;
+      color: rgb(161, 161, 161);
+      transition: 500ms;
+    }
+    
+    #addNeed:hover {
+      box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+      color: #d6d6d6;
+      transition: 500ms;
+  }
+
+  #addHave {
+    margin: 12px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background:transparent;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+    border: none;
+    font-size: 12px;
+    color: rgb(161, 161, 161);
+    transition: 500ms;
+  }
+  
+  #addHave:hover {
+    box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+    color: #d6d6d6;
+    transition: 500ms;
+}
+
+
+  h1 {
+    color: #ffffff;
+    font-size: 50px;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size: 42px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+  .list {
+    color: #555;
+    font-size: 22px;
+    padding: 0 !important;
+    width: 500px;
+    border: 1px solid #dedede;
+  }
+  .list li {
+    list-style: none;
+    background-color :transparent;
+    border-bottom: 1px dotted #ccc;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  li a {
+    float: right;
+    text-decoration: none;
+    color: red;
+  }
+  
+  @media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
+         (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
+         (min-resolution: 2dppx),             /* The standard way */
+         (min-resolution: 192dpi)             /* dppx fallback */
+  {
+
+  }
