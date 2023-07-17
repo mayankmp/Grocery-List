@@ -95,6 +95,40 @@ body {
     color: red;
   }
   
+  /* Mobile styles */
+
+@media (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+
+  form,
+  input[type="text"],
+  .list,
+  .list li {
+    width: 100%;
+  }
+
+  .list li {
+    padding: 10px 5px;
+  }
+}
+
+/* Tablet styles */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    width: 100%;
+  }
+
+  form,
+  input[type="text"],
+  .list,
+  .list li {
+    width: 100%;
+  }
+}
+  
   @media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
          (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
          (min-resolution: 2dppx),             /* The standard way */
